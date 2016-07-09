@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libatrac3plus.prx</PRX>
+		<PRXNAME>sceATRAC3plus_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>Kernel_Library</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F10D406</NID>
+						<NAME>sceKernelCpuResumeIntr</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

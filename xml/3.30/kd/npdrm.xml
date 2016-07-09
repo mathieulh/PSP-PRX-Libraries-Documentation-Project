@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/npdrm.prx</PRX>
+		<PRXNAME>scePspNpDrm_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePspNpDrm_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x04618D16</NID>
+						<NAME>scePspNpDrm_driver_04618D16</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x0F9547E6</NID>
+						<NAME>scePspNpDrm_driver_0F9547E6</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x17E3F4BB</NID>
+						<NAME>scePspNpDrm_driver_17E3F4BB</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x37B9B10D</NID>
+						<NAME>scePspNpDrm_driver_37B9B10D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5667B7B9</NID>
+						<NAME>scePspNpDrm_driver_5667B7B9</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

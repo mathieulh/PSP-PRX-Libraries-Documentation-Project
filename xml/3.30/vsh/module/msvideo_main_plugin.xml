@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/msvideo_main_plugin.prx</PRX>
+		<PRXNAME>msvideo_main_plugin_module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceMsVideo</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD8E92754</NID>
+						<NAME>sceMsVideo_D8E92754</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

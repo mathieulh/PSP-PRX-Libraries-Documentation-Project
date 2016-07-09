@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pspnet_adhoc_discover.prx</PRX>
+		<PRXNAME>sceNetAdhocDiscover_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNetAdhocDiscover</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x52DE1B97</NID>
+						<NAME>sceNetAdhocDiscoverUpdate</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x941B3877</NID>
+						<NAME>sceNetAdhocDiscoverInitStart</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x944DDBC6</NID>
+						<NAME>sceNetAdhocDiscoverGetStatus</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA2246614</NID>
+						<NAME>sceNetAdhocDiscoverTerm</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA423A21B</NID>
+						<NAME>sceNetAdhocDiscoverRequestSuspend</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF7D13214</NID>
+						<NAME>sceNetAdhocDiscoverStop</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/usbstorboot.prx</PRX>
+		<PRXNAME>sceUSB_Stor_Boot_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceUsbstorBoot</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xE58818A8</NID>
+						<NAME>sceUsbstorBootSetCapacity</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x594BBF95</NID>
+						<NAME>sceUsbstorBootSetLoadAddr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6D865ECD</NID>
+						<NAME>sceUsbstorBootGetDataSize</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA1119F0D</NID>
+						<NAME>sceUsbstorBootSetStatus</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8A4F36E5</NID>
+						<NAME>sceUsbstorBoot_8A4F36E5</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1F080078</NID>
+						<NAME>sceUsbstorBootRegisterNotify</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA55C9E16</NID>
+						<NAME>sceUsbstorBootUnregisterNotify</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

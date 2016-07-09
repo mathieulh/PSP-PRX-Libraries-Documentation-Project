@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/np_inst.prx</PRX>
+		<PRXNAME>sceNpInstall_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNpInstall_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0B039B36</NID>
+						<NAME>sceNpInstall_driver_0B039B36</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5847D8C7</NID>
+						<NAME>sceNpInstall_driver_5847D8C7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7AE4C8BC</NID>
+						<NAME>sceNpInstall_driver_7AE4C8BC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x91F9D50D</NID>
+						<NAME>sceNpInstall_driver_91F9D50D</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceNpInstall_user</NAME>
+				<FLAGS>0x40010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0B039B36</NID>
+						<NAME>sceNpInstall_user_0B039B36</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5847D8C7</NID>
+						<NAME>sceNpInstall_user_5847D8C7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7AE4C8BC</NID>
+						<NAME>sceNpInstall_user_7AE4C8BC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x91F9D50D</NID>
+						<NAME>sceNpInstall_user_91F9D50D</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

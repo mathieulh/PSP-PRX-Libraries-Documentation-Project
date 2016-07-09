@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/amctrl.prx</PRX>
+		<PRXNAME>sceAmctrl_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceAmctrl_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0785C974</NID>
+						<NAME>sceAmctrl_driver_0785C974</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1CCB66D2</NID>
+						<NAME>sceAmctrl_driver_1CCB66D2</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x525B8218</NID>
+						<NAME>sceAmctrl_driver_525B8218</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x58163FBE</NID>
+						<NAME>sceAmctrl_driver_58163FBE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9951C50F</NID>
+						<NAME>sceAmctrl_driver_9951C50F</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEF95A213</NID>
+						<NAME>sceAmctrl_driver_EF95A213</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF5186D8E</NID>
+						<NAME>sceAmctrl_driver_F5186D8E</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

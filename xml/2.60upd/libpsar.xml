@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>libpsar.prx</PRX>
+		<PRXNAME>scePSAR_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePSAR_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x294BEB21</NID>
+						<NAME>_scePSARModuleStart</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF4DB5ABE</NID>
+						<NAME>scePSAR_driver_F4DB5ABE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3F7C1EDC</NID>
+						<NAME>scePSAR_driver_3F7C1EDC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE564B1DA</NID>
+						<NAME>scePSAR_driver_E564B1DA</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>scePSAR</NAME>
+				<FLAGS>0x40090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xF4DB5ABE</NID>
+						<NAME>scePSAR_F4DB5ABE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3F7C1EDC</NID>
+						<NAME>scePSAR_3F7C1EDC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE564B1DA</NID>
+						<NAME>scePSAR_E564B1DA</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

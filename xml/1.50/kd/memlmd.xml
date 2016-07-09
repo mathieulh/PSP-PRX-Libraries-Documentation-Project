@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/memlmd.prx</PRX>
+		<PRXNAME>sceMemlmd</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>memlmd</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x8BDB1A3E</NID>
+						<NAME>sceUtilsGetLoadModuleABLength</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x185F0A2A</NID>
+						<NAME>sceUtilsGetLoadModuleABLengthByPolling</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>semaphore</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x00EEC06A</NID>
+						<NAME>sceUtilsBufferCopy</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8EEB7BF2</NID>
+						<NAME>sceUtilsBufferCopyByPolling</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4C537C72</NID>
+						<NAME>sceUtilsBufferCopyWithRange</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x77E97079</NID>
+						<NAME>sceUtilsBufferCopyByPollingWithRange</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

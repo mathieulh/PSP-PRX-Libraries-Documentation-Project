@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/emc_ddr.prx</PRX>
+		<PRXNAME>sceDDR_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>InterruptManagerForKernel</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3B84732D</NID>
+						<NAME>sceKernelCpuResumeIntrWithSync</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>SysclibForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xAB7592FF</NID>
+						<NAME>memcpy</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>DmacManForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x32757C57</NID>
+						<NAME>DmacManForKernel_32757C57</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>UtilsForKernel</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x79D1C3FA</NID>
+						<NAME>sceKernelDcacheWritebackAll</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

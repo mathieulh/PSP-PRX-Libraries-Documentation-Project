@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/semawm.prx</PRX>
+		<PRXNAME>sceSemawm</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceSemawm</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x042CC81C</NID>
+						<NAME>sceSemawm_042CC81C</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x580452FD</NID>
+						<NAME>sceSemawm_580452FD</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x63829B1A</NID>
+						<NAME>sceSemawm_63829B1A</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9E29E565</NID>
+						<NAME>sceSemawm_9E29E565</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCDA606FE</NID>
+						<NAME>sceSemawm_CDA606FE</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

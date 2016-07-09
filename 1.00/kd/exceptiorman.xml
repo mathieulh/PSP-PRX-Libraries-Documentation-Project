@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/exceptiorman.prx</PRX>
+		<PRXNAME>sceExceptionManager</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ExceptionManagerForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3FB264FC</NID>
+						<NAME>sceKernelRegisterExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5A837AD4</NID>
+						<NAME>sceKernelRegisterPriorityExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x565C0B0E</NID>
+						<NAME>sceKernelRegisterDefaultExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1AA6CFFA</NID>
+						<NAME>sceKernelReleaseExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xDF83875E</NID>
+						<NAME>sceKernelGetActiveDefaultExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x291FF031</NID>
+						<NAME>sceKernelReleaseDefaultExceptionHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x15ADC862</NID>
+						<NAME>sceKernelRegisterNmiHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB15357C9</NID>
+						<NAME>sceKernelReleaseNmiHandler</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+				<VARIABLES>
+					<VARIABLE>
+						<NID>0x8B65A2F3</NID>
+						<NAME>ExcepManCB</NAME>
+					</VARIABLE>
+				</VARIABLES>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

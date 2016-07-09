@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/init.prx</PRX>
+		<PRXNAME>sceInit</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>InitForKernel</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x2C6E9FE9</NID>
+						<NAME>sceKernelGetChunk</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1D3256BA</NID>
+						<NAME>sceKernelRegisterChunk</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCE88E870</NID>
+						<NAME>sceKernelReleaseChunk</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7A2333AD</NID>
+						<NAME>sceKernelInitApitype</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA6E71B93</NID>
+						<NAME>sceKernelInitFileName</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>suspend_canceler.prx</PRX>
+		<PRXNAME>sceSuspendCaneler</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceSuspendCancler</NAME>
+				<FLAGS>0x40010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xBD2F51C1</NID>
+						<NAME>sceSuspendCancelerGetMode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x558C30C8</NID>
+						<NAME>sceSuspendCancelerSetMode</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceSuspendCancler_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xBD2F51C1</NID>
+						<NAME>sceSuspendCancelerGetMode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x558C30C8</NID>
+						<NAME>sceSuspendCancelerSetMode</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

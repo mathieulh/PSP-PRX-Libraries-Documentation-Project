@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/mesg_led_01g.prx</PRX>
+		<PRXNAME>sceMesgLed</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ThreadManForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x28B6489C</NID>
+						<NAME>sceKernelDeleteSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3F53E640</NID>
+						<NAME>sceKernelSignalSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4E3A1105</NID>
+						<NAME>sceKernelWaitSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x58B1F937</NID>
+						<NAME>sceKernelPollSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD6DA4BA1</NID>
+						<NAME>sceKernelCreateSema</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>semaphore</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x4C537C72</NID>
+						<NAME>sceUtilsBufferCopyWithRange</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x77E97079</NID>
+						<NAME>sceUtilsBufferCopyByPollingWithRange</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

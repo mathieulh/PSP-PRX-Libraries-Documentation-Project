@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/fatmsmod.prx</PRX>
+		<PRXNAME>sceMSFAT_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceFatMS_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xBCB9DEDB</NID>
+						<NAME>sceFatMS_driver_BCB9DEDB</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

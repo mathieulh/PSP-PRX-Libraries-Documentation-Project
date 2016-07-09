@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/peq.prx</PRX>
+		<PRXNAME>scePEQ_Library_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>UtilsForKernel</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3EE30821</NID>
+						<NAME>sceKernelDcacheWritebackRange</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBFA98062</NID>
+						<NAME>sceKernelDcacheInvalidateRange</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceMeCore_driver</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD1EA3DFD</NID>
+						<NAME>sceMeCore_driver_D1EA3DFD</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3D5F109C</NID>
+						<NAME>sceMeCore_driver_3D5F109C</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

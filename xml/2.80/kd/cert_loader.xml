@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/cert_loader.prx</PRX>
+		<PRXNAME>sceCert_Loader</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceCertLoader_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x11391041</NID>
+						<NAME>sceLoadCertEnd</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE86A7DC1</NID>
+						<NAME>sceCertLoader_driver_E86A7DC1</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceCertLoader</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xDD629A24</NID>
+						<NAME>sceLoadCertFromFlash</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

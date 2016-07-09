@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/netconf_plugin.prx</PRX>
+		<PRXNAME>sceVshNetconf_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceVshNetconf</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x19BCE7BD</NID>
+						<NAME>sceVshNetconf_19BCE7BD</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8A37A654</NID>
+						<NAME>sceVshNetconf_8A37A654</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8AF4C1E1</NID>
+						<NAME>sceVshNetconf_8AF4C1E1</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xAD70691F</NID>
+						<NAME>sceVshNetconf_AD70691F</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBBCECE7D</NID>
+						<NAME>sceVshNetconf_BBCECE7D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCB2DF71F</NID>
+						<NAME>sceVshNetconf_CB2DF71F</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCD00B136</NID>
+						<NAME>sceVshNetconf_CD00B136</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

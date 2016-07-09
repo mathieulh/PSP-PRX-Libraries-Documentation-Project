@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libdnas.prx</PRX>
+		<PRXNAME>sceDNAS_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceDNAS_lib</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0D560144</NID>
+						<NAME>sceDNAS_lib_0D560144</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCA8B8909</NID>
+						<NAME>sceDNAS_lib_CA8B8909</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9FF48DD3</NID>
+						<NAME>sceDNAS_lib_9FF48DD3</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBE0998D7</NID>
+						<NAME>sceDNAS_lib_BE0998D7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x45C1AAF5</NID>
+						<NAME>sceDNAS_lib_45C1AAF5</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA646E771</NID>
+						<NAME>sceDNAS_lib_A646E771</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6929100C</NID>
+						<NAME>sceDNAS_lib_6929100C</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF3787AD8</NID>
+						<NAME>sceDNAS_lib_F3787AD8</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

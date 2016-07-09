@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/peq.prx</PRX>
+		<PRXNAME>scePEQ_Library_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePEQ_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x213DE849</NID>
+						<NAME>scePEQ_driver_213DE849</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xFC45514B</NID>
+						<NAME>scePEQ_driver_FC45514B</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF7EA0632</NID>
+						<NAME>scePEQ_driver_F7EA0632</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xED13C3B5</NID>
+						<NAME>scePEQ_driver_ED13C3B5</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>scePEQ</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xFC45514B</NID>
+						<NAME>scePEQ_FC45514B</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF7EA0632</NID>
+						<NAME>scePEQ_F7EA0632</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xED13C3B5</NID>
+						<NAME>scePEQ_ED13C3B5</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

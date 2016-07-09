@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pspnet_ap_dialog_dummy.prx</PRX>
+		<PRXNAME>sceNetApDialogDummy_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNetApDialogDummy</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3811281E</NID>
+						<NAME>sceNetApDialogDummyConnect</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBB73FF67</NID>
+						<NAME>sceNetApDialogDummyInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCA9BE5BF</NID>
+						<NAME>sceNetApDialogDummyGetState</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF213BE65</NID>
+						<NAME>sceNetApDialogDummyTerm</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/mcctrl.prx</PRX>
+		<PRXNAME>sceMcctrl</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceMcctrl</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x1EDFD6BB</NID>
+						<NAME>sceMcctrl_1EDFD6BB</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3EF531DB</NID>
+						<NAME>sceMcctrl_3EF531DB</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x61550814</NID>
+						<NAME>sceMcctrl_61550814</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7CAC25B2</NID>
+						<NAME>sceMcctrl_7CAC25B2</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x877CD3A5</NID>
+						<NAME>sceMcctrl_877CD3A5</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9618EE57</NID>
+						<NAME>sceMcctrl_9618EE57</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

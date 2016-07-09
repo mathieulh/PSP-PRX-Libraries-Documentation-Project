@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/heaparea2.prx</PRX>
+		<PRXNAME>scePafHeaparea_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ThreadManForUser</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xED1410E0</NID>
+						<NAME>sceKernelDeleteFpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF6414A71</NID>
+						<NAME>sceKernelFreeFpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x623AE665</NID>
+						<NAME>sceKernelTryAllocateFpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC07BB470</NID>
+						<NAME>sceKernelCreateFpl</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

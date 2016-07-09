@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libatrac3plus.prx</PRX>
+		<PRXNAME>sceATRAC3plus_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>Kernel_Library</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F10D406</NID>
+						<NAME>sceKernelCpuResumeIntr</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceAudiocodec</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x29681260</NID>
+						<NAME>sceAudiocodecReleaseEDRAM</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3A20A200</NID>
+						<NAME>sceAudiocodecGetEDRAM</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3DD7EE1A</NID>
+						<NAME>sceAudiocodec_3DD7EE1A</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5B37EB1D</NID>
+						<NAME>sceAudiocodecInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x70A703F8</NID>
+						<NAME>sceAudiocodecDecode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9D3F790C</NID>
+						<NAME>sceAudiocodeCheckNeedMem</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

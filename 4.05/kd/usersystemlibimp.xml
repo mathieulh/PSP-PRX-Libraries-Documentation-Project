@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/usersystemlib.prx</PRX>
+		<PRXNAME>sceKernelLibrary</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysMemUserForUser</NAME>
+				<FLAGS>0x40000011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xA6848DF8</NID>
+						<NAME>SysMemUserForUser_A6848DF8</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>InterruptManager</NAME>
+				<FLAGS>0x40000011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEEE43F47</NID>
+						<NAME>sceKernelRegisterUserSpaceIntrStack</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>ThreadManForUser</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x31327F19</NID>
+						<NAME>ThreadManForUser_31327F19</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4C145944</NID>
+						<NAME>ThreadManForUser_4C145944</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7CFF8CF3</NID>
+						<NAME>ThreadManForUser_7CFF8CF3</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBEED3A47</NID>
+						<NAME>ThreadManForUser_BEED3A47</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

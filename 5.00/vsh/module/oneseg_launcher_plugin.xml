@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/oneseg_launcher_plugin.prx</PRX>
+		<PRXNAME>oneseg_lnch_plugin_module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceOnesegLnch</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x734C315F</NID>
+						<NAME>sceOnesegLnch_734C315F</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9A609CED</NID>
+						<NAME>sceOnesegLnch_9A609CED</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB3F1FB46</NID>
+						<NAME>sceOnesegLnch_B3F1FB46</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE766B172</NID>
+						<NAME>sceOnesegLnch_E766B172</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

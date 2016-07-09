@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/systimer.prx</PRX>
+		<PRXNAME>sceSystimer</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysTimerForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x114A0A10</NID>
+						<NAME>SysTimerForKernel_114A0A10</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x979481B3</NID>
+						<NAME>SysTimerForKernel_979481B3</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB59C9521</NID>
+						<NAME>SysTimerForKernel_B59C9521</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBA8872BE</NID>
+						<NAME>SysTimerForKernel_BA8872BE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC2A3128E</NID>
+						<NAME>SysTimerForKernel_C2A3128E</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC7CAD056</NID>
+						<NAME>SysTimerForKernel_C7CAD056</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xED89221E</NID>
+						<NAME>SysTimerForKernel_ED89221E</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEDB61195</NID>
+						<NAME>SysTimerForKernel_EDB61195</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xFD3E3BAF</NID>
+						<NAME>SysTimerForKernel_FD3E3BAF</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

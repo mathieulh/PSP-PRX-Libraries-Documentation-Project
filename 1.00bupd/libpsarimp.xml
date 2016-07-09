@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>libpsar.prx</PRX>
+		<PRXNAME>scePSAR_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysclibForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xAB7592FF</NID>
+						<NAME>memcpy</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x81D0D1F7</NID>
+						<NAME>memcmp</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceNwman_driver</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x9555D68D</NID>
+						<NAME>sceNwman_driver_9555D68D</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

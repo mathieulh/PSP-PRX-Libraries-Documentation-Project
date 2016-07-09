@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/amctrl.prx</PRX>
+		<PRXNAME>sceAmctrl_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceAmctrl_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0785C974</NID>
+						<NAME>sceDrmBBCipherUpdate</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1CCB66D2</NID>
+						<NAME>sceDrmBBCipherInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x525B8218</NID>
+						<NAME>sceDrmBBMacInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x58163FBE</NID>
+						<NAME>sceDrmBBMacUpdate</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9951C50F</NID>
+						<NAME>sceDrmBBCipherFinal</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEF95A213</NID>
+						<NAME>sceDrmBBMacFinal</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF5186D8E</NID>
+						<NAME>sceDrmBBMacFinal2</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

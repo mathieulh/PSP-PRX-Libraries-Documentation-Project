@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/cert_loader.prx</PRX>
+		<PRXNAME>sceCert_Loader</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysMemForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xFC114573</NID>
+						<NAME>sceKernelGetCompiledSdkVersion</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>IoFileMgrForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x109F50BC</NID>
+						<NAME>sceIoOpen</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x27EB27B8</NID>
+						<NAME>sceIoLseek</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6A638D83</NID>
+						<NAME>sceIoRead</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x810C4BC3</NID>
+						<NAME>sceIoClose</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

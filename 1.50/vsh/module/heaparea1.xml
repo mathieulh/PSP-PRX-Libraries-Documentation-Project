@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/heaparea1.prx</PRX>
+		<PRXNAME>scePafHeaparea_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePafHeaparea</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xF50AAE41</NID>
+						<NAME>sce_paf_private_getheaparea1</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xACCE25B2</NID>
+						<NAME>sce_paf_private_getheaparea2</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

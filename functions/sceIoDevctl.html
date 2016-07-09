@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>sceIoDevctl</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<a class="anchor" name="ga2d114c652feb1e81b4e6ef1d3edc846"></a><!-- --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">int sceIoDevctl           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">const char *&nbsp;</td>
+          <td class="mdname" nowrap> <em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>unsigned int&nbsp;</td>
+          <td class="mdname" nowrap> <em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>indata</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>inlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>outdata</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>int&nbsp;</td>
+          <td class="mdname" nowrap> <em>outlen</em></td>
+        </tr>
+        <tr>
+          <td class="md"></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Send a devctl command to a device.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>dev</em>&nbsp;</td><td>- String for the device to send the devctl to (e.g. "ms0:") </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>cmd</em>&nbsp;</td><td>- The command to send to the device </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>indata</em>&nbsp;</td><td>- A data block to send to the device, if NULL sends no data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>inlen</em>&nbsp;</td><td>- Length of indata, if 0 sends no data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>outdata</em>&nbsp;</td><td>- A data block to receive the result of a command, if NULL receives no data </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>outlen</em>&nbsp;</td><td>- Length of outdata, if 0 receives no data </td></tr>
+  </table>
+</dl>
+<dl compact><dt><b>Returns:</b></dt><dd>0 on success, &lt; 0 on error</dd></dl>
+<dl compact><dt><b>Example: Sending a simple command to a device (not a real devctl)</b></dt><dd><div class="fragment"><pre class="fragment"> <a class="code" href="sceIoDevctl.html">sceIoDevctl</a>(<span class="stringliteral">"ms0:"</span>, 0x200000, indata, 4, NULL, NULL); 
+</pre></div> </dd></dl>
+    </td>
+  </tr>
+</table>
+<hr size="1"><address style="align: right;"><small>Generated on Tue Jun 13 23:23:48 2006 by&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.6 </small></address>
+</body>
+</html>

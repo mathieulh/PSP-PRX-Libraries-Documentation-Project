@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pwm.prx</PRX>
+		<PRXNAME>scePWM_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceSysEventForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xCD9E4BB5</NID>
+						<NAME>sceKernelRegisterSysEventHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD7D3FDCD</NID>
+						<NAME>sceKernelUnregisterSysEventHandler</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceSysreg_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x7DCA8302</NID>
+						<NAME>sceSysregPwmClkEnable</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x45225F8F</NID>
+						<NAME>sceSysregPwmClkDisable</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7A5D2D15</NID>
+						<NAME>sceSysregPwmIoEnable</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x25B0AC52</NID>
+						<NAME>sceSysregPwmIoDisable</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

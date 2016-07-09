@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/chkreg.prx</PRX>
+		<PRXNAME>sceChkreg</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceChkreg_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x54495B19</NID>
+						<NAME>sceChkregCheckRegion</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x59F8491D</NID>
+						<NAME>sceChkregGetPsCode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6894A027</NID>
+						<NAME>sceChkreg_driver_6894A027</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9C6E1D34</NID>
+						<NAME>sceChkreg_driver_9C6E1D34</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

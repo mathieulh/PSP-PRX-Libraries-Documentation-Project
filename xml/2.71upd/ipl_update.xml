@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>ipl_update.prx</PRX>
+		<PRXNAME>TexSeqCounter</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceIplUpdate</NAME>
+				<FLAGS>0x40010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEE7EB563</NID>
+						<NAME>sceIplUpdateSetIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x26093B04</NID>
+						<NAME>sceIplUpdateClearIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x0565E6DD</NID>
+						<NAME>sceIplUpdate_0565E6DD</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceIplUpdate_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEE7EB563</NID>
+						<NAME>sceIplUpdateSetIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x26093B04</NID>
+						<NAME>sceIplUpdateClearIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x0565E6DD</NID>
+						<NAME>sceIplUpdate_driver_0565E6DD</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

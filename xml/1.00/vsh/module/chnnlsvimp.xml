@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/chnnlsv.prx</PRX>
+		<PRXNAME>sceChnnlsv</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ThreadManForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD6DA4BA1</NID>
+						<NAME>sceKernelCreateSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x28B6489C</NID>
+						<NAME>sceKernelDeleteSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3F53E640</NID>
+						<NAME>sceKernelSignalSema</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4E3A1105</NID>
+						<NAME>sceKernelWaitSema</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>semaphore</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x4C537C72</NID>
+						<NAME>semaphore_4C537C72</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

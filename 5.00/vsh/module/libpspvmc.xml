@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/libpspvmc.prx</PRX>
+		<PRXNAME>pspvmc_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>pspvmc</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0820B291</NID>
+						<NAME>pspvmc_0820B291</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x133FC171</NID>
+						<NAME>pspvmc_133FC171</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x38A87A12</NID>
+						<NAME>pspvmc_38A87A12</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

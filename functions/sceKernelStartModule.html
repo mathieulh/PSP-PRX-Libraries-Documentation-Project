@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>sceKernelStartModule</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<a class="anchor" name="g69c3f128b68a8b0ec89fb1f17a5bd5b5"></a><!--  --><p>
+<table class="mdTable" cellpadding="2" cellspacing="0">
+  <tr>
+    <td class="mdRow">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td class="md" nowrap valign="top">int sceKernelStartModule           </td>
+          <td class="md" valign="top">(&nbsp;</td>
+          <td class="md" nowrap valign="top">SceUID&nbsp;</td>
+          <td class="mdname" nowrap> <em>modid</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>SceSize&nbsp;</td>
+          <td class="mdname" nowrap> <em>argsize</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>void *&nbsp;</td>
+          <td class="mdname" nowrap> <em>argp</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>int *&nbsp;</td>
+          <td class="mdname" nowrap> <em>status</em>, </td>
+        </tr>
+        <tr>
+          <td class="md" nowrap align="right"></td>
+          <td class="md"></td>
+          <td class="md" nowrap>SceKernelSMOption *&nbsp;</td>
+          <td class="mdname" nowrap> <em>option</em></td>
+        </tr>
+        <tr>
+          <td class="md"></td>
+          <td class="md">)&nbsp;</td>
+          <td class="md" colspan="2"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table cellspacing="5" cellpadding="0" border="0">
+  <tr>
+    <td>
+      &nbsp;
+    </td>
+    <td>
+
+<p>
+Start a loaded module.<p>
+<dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>modid</em>&nbsp;</td><td>- The UID of the module returned from a LoadModule function. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>argsize</em>&nbsp;</td><td>- Length of the args. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>argp</em>&nbsp;</td><td>- A pointer to the arguments to the module. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>status</em>&nbsp;</td><td>- Returns the status of the start. </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>option</em>&nbsp;</td><td>- Pointer to an optional <a class="code" href="SceKernelSMOption.html">SceKernelSMOption</a> structure.</td></tr>
+  </table>
+</dl>
+<dl compact><dt><b>Returns:</b></dt><dd>The UID of the started module on success, otherwise one of <a class="code" href="PspKernelErrorCodes.html">PspKernelErrorCodes</a>. </dd></dl>
+    </td>
+  </tr>
+</table>
+<hr size="1"><address style="align: right;"><small>Generated on Thu Jun 15 12:41:28 2006 by&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.6 </small></address>
+</body>
+</html>

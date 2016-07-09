@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>testmode.prx</PRX>
+		<PRXNAME>sceTestMode_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceTestMode_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x2342B106</NID>
+						<NAME>sceTestModeStartTestMode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB347D587</NID>
+						<NAME>sceTestMode_driver_B347D587</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

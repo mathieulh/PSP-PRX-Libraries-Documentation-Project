@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/iofilemgr_dnas.prx</PRX>
+		<PRXNAME>sceIoFilemgrDNAS</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceIoFilemgrDNAS_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0144AFDA</NID>
+						<NAME>sceIoLseekDNAS</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4B4AAA29</NID>
+						<NAME>sceIoEndDNAS</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x79A425A4</NID>
+						<NAME>sceIoInitDNAS</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8E56CAA1</NID>
+						<NAME>sceIoReadDNAS</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9F645A9C</NID>
+						<NAME>sceIoCloseDNAS</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xAA46A25E</NID>
+						<NAME>sceIoFilemgrDNAS_driver_AA46A25E</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

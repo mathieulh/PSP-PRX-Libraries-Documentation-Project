@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/sm1.prx</PRX>
+		<PRXNAME>sceSM1_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>KDebugForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x333DCEC7</NID>
+						<NAME>KDebugForKernel_333DCEC7</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>InterruptManagerForKernel</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F10D406</NID>
+						<NAME>sceKernelCpuResumeIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x3B84732D</NID>
+						<NAME>sceKernelCpuResumeIntrWithSync</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

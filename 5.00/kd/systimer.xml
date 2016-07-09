@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/systimer.prx</PRX>
+		<PRXNAME>sceSystimer</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysTimerForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0AB3BC9C</NID>
+						<NAME>SysTimerForKernel_0AB3BC9C</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1013EB8B</NID>
+						<NAME>SysTimerForKernel_1013EB8B</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x1E99FA82</NID>
+						<NAME>SysTimerForKernel_1E99FA82</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x62AB11D2</NID>
+						<NAME>SysTimerForKernel_62AB11D2</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA0687739</NID>
+						<NAME>SysTimerForKernel_A0687739</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD9A211BC</NID>
+						<NAME>SysTimerForKernel_D9A211BC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE0331FB2</NID>
+						<NAME>SysTimerForKernel_E0331FB2</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF5A719D1</NID>
+						<NAME>SysTimerForKernel_F5A719D1</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF9B7ABB1</NID>
+						<NAME>SysTimerForKernel_F9B7ABB1</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

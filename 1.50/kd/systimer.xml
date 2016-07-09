@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/systimer.prx</PRX>
+		<PRXNAME>sceSystimer</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SysTimerForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xC99073E3</NID>
+						<NAME>sceSTimerAlloc</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC105CF38</NID>
+						<NAME>sceSTimerFree</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB53534B4</NID>
+						<NAME>SysTimerForKernel_B53534B4</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x975D8E84</NID>
+						<NAME>sceSTimerSetHandler</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA95143E2</NID>
+						<NAME>sceSTimerStartCount</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4A01F9D3</NID>
+						<NAME>sceSTimerStopCount</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x54BB5DB4</NID>
+						<NAME>sceSTimerResetCount</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x228EDAE4</NID>
+						<NAME>sceSTimerGetCount</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x53231A15</NID>
+						<NAME>SysTimerForKernel_53231A15</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

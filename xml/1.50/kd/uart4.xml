@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/uart4.prx</PRX>
+		<PRXNAME>sceUart4</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>Uart4ForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD00E3D06</NID>
+						<NAME>sceKernelUart4Init</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA68555F7</NID>
+						<NAME>sceKernelUart4SetBps</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC703109F</NID>
+						<NAME>sceKernelUart4PostChar</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC0BE3133</NID>
+						<NAME>sceKernelUart4SendChar</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD91079E3</NID>
+						<NAME>sceKernelUart4SendBytes</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x69BCBEF1</NID>
+						<NAME>sceKernelUart4SendCharFix</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x2518C2F3</NID>
+						<NAME>sceKernelUart4SendBytesFix</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x2FD96F62</NID>
+						<NAME>sceKernelUart4ReceiveBytesFix</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

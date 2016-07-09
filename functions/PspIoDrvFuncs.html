@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1">
+<title>PspIoDrvFuncs</title>
+<link href="doxygen.css" rel="stylesheet" type="text/css">
+</head><body>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr><td></td></tr>
+<tr><td colspan="2"><br><h2>Public Attributes</h2></td></tr>
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="abfc9f59805638a2637ca6891747cac8"></a><!-- doxytag: member="PspIoDrvFuncs::IoInit" ref="abfc9f59805638a2637ca6891747cac8" args=")(PspIoDrvArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoInit</b> )(PspIoDrvArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="1318ec01e97e933e846440b060173151"></a><!-- doxytag: member="PspIoDrvFuncs::IoExit" ref="1318ec01e97e933e846440b060173151" args=")(PspIoDrvArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoExit</b> )(PspIoDrvArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="d68d0bbe01699693192bc578c0fca5f2"></a><!-- doxytag: member="PspIoDrvFuncs::IoOpen" ref="d68d0bbe01699693192bc578c0fca5f2" args=")(PspIoDrvFileArg *arg, char *file, int flags, SceMode mode)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoOpen</b> )(PspIoDrvFileArg *arg, char *file, int flags, SceMode mode)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="e28fe2a28419c30540b578a96220e905"></a><!-- doxytag: member="PspIoDrvFuncs::IoClose" ref="e28fe2a28419c30540b578a96220e905" args=")(PspIoDrvFileArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoClose</b> )(PspIoDrvFileArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="ac504093732563c1c16ab82a56892ef9"></a><!-- doxytag: member="PspIoDrvFuncs::IoRead" ref="ac504093732563c1c16ab82a56892ef9" args=")(PspIoDrvFileArg *arg, char *data, int len)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoRead</b> )(PspIoDrvFileArg *arg, char *data, int len)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="1c858bab5d3785c37ade6f8efe101057"></a><!-- doxytag: member="PspIoDrvFuncs::IoWrite" ref="1c858bab5d3785c37ade6f8efe101057" args=")(PspIoDrvFileArg *arg, const char *data, int len)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoWrite</b> )(PspIoDrvFileArg *arg, const char *data, int len)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3364ac305bbc93b3bcb83c1f323f616c"></a><!-- doxytag: member="PspIoDrvFuncs::IoLseek" ref="3364ac305bbc93b3bcb83c1f323f616c" args=")(PspIoDrvFileArg *arg, SceOff ofs, int whence)" -->
+SceOff(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoLseek</b> )(PspIoDrvFileArg *arg, SceOff ofs, int whence)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="f3e0680afebcf722dcc73a376ae2dc38"></a><!-- doxytag: member="PspIoDrvFuncs::IoIoctl" ref="f3e0680afebcf722dcc73a376ae2dc38" args=")(PspIoDrvFileArg *arg, unsigned int cmd, void *indata, int inlen, void *outdata, int outlen)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoIoctl</b> )(PspIoDrvFileArg *arg, unsigned int cmd, void *indata, int inlen, void *outdata, int outlen)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="959241def831b1be741879ba06eb1cfe"></a><!-- doxytag: member="PspIoDrvFuncs::IoRemove" ref="959241def831b1be741879ba06eb1cfe" args=")(PspIoDrvFileArg *arg, const char *name)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoRemove</b> )(PspIoDrvFileArg *arg, const char *name)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3e056ff10753965a1fd73a3bf53633f6"></a><!-- doxytag: member="PspIoDrvFuncs::IoMkdir" ref="3e056ff10753965a1fd73a3bf53633f6" args=")(PspIoDrvFileArg *arg, const char *name, SceMode mode)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoMkdir</b> )(PspIoDrvFileArg *arg, const char *name, SceMode mode)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="546d56975d7c82631a48b4445cc651cb"></a><!-- doxytag: member="PspIoDrvFuncs::IoRmdir" ref="546d56975d7c82631a48b4445cc651cb" args=")(PspIoDrvFileArg *arg, const char *name)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoRmdir</b> )(PspIoDrvFileArg *arg, const char *name)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="3c9df8ba0cdc6dac7418fbd8ceecaa0f"></a><!-- doxytag: member="PspIoDrvFuncs::IoDopen" ref="3c9df8ba0cdc6dac7418fbd8ceecaa0f" args=")(PspIoDrvFileArg *arg, const char *dirname)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoDopen</b> )(PspIoDrvFileArg *arg, const char *dirname)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="a2a7b41e651412bddaf6c3765a002dc7"></a><!-- doxytag: member="PspIoDrvFuncs::IoDclose" ref="a2a7b41e651412bddaf6c3765a002dc7" args=")(PspIoDrvFileArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoDclose</b> )(PspIoDrvFileArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="02f781ef67d10447906afd46af739d73"></a><!-- doxytag: member="PspIoDrvFuncs::IoDread" ref="02f781ef67d10447906afd46af739d73" args=")(PspIoDrvFileArg *arg, SceIoDirent *dir)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoDread</b> )(PspIoDrvFileArg *arg, SceIoDirent *dir)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="c88355c848b59629830c66f6d4d399cc"></a><!-- doxytag: member="PspIoDrvFuncs::IoGetstat" ref="c88355c848b59629830c66f6d4d399cc" args=")(PspIoDrvFileArg *arg, const char *file, SceIoStat *stat)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoGetstat</b> )(PspIoDrvFileArg *arg, const char *file, SceIoStat *stat)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="7cb17653efbc29a8075c10c7d9e3de96"></a><!-- doxytag: member="PspIoDrvFuncs::IoChstat" ref="7cb17653efbc29a8075c10c7d9e3de96" args=")(PspIoDrvFileArg *arg, const char *file, SceIoStat *stat, int bits)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoChstat</b> )(PspIoDrvFileArg *arg, const char *file, SceIoStat *stat, int bits)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="1ba5905b56c007167cd88d42733f6900"></a><!-- doxytag: member="PspIoDrvFuncs::IoRename" ref="1ba5905b56c007167cd88d42733f6900" args=")(PspIoDrvFileArg *arg, const char *oldname, const char *newname)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoRename</b> )(PspIoDrvFileArg *arg, const char *oldname, const char *newname)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="b2ed4de479a761b74b2234d5f17208d0"></a><!-- doxytag: member="PspIoDrvFuncs::IoChdir" ref="b2ed4de479a761b74b2234d5f17208d0" args=")(PspIoDrvFileArg *arg, const char *dir)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoChdir</b> )(PspIoDrvFileArg *arg, const char *dir)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="b14ded140ab39617b7a22a1875ee9757"></a><!-- doxytag: member="PspIoDrvFuncs::IoMount" ref="b14ded140ab39617b7a22a1875ee9757" args=")(PspIoDrvFileArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoMount</b> )(PspIoDrvFileArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="e4afd339570a1427fefb7ed072f6cd43"></a><!-- doxytag: member="PspIoDrvFuncs::IoUmount" ref="e4afd339570a1427fefb7ed072f6cd43" args=")(PspIoDrvFileArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoUmount</b> )(PspIoDrvFileArg *arg)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="34a0911abdccea9f5d379013d28a6e54"></a><!-- doxytag: member="PspIoDrvFuncs::IoDevctl" ref="34a0911abdccea9f5d379013d28a6e54" args=")(PspIoDrvFileArg *arg, const char *devname, unsigned int cmd, void *indata, int inlen, void *outdata, int outlen)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoDevctl</b> )(PspIoDrvFileArg *arg, const char *devname, unsigned int cmd, void *indata, int inlen, void *outdata, int outlen)</td></tr>
+
+<tr><td class="memItemLeft" nowrap align="right" valign="top"><a class="anchor" name="4d975272822273668812177ac5561215"></a><!-- doxytag: member="PspIoDrvFuncs::IoUnk21" ref="4d975272822273668812177ac5561215" args=")(PspIoDrvFileArg *arg)" -->
+int(*&nbsp;</td><td class="memItemRight" valign="bottom"><b>IoUnk21</b> )(PspIoDrvFileArg *arg)</td></tr>
+
+</table>
+<hr><a name="_details"></a><h2>Detailed Description</h2>
+Structure to maintain the file driver pointers 
+<p>
+<hr size="1"><address style="align: right;"><small>Generated on Tue Jun 13 23:46:54 2006 by&nbsp;
+<a href="http://www.doxygen.org/index.html">
+<img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.6 </small></address>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/me_for_vsh.prx</PRX>
+		<PRXNAME>me_for_vsh</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceMe4VSH_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x99CBCF35</NID>
+						<NAME>sceMe4VSH_driver_99CBCF35</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

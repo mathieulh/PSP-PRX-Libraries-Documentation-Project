@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/hvauth_r.prx</PRX>
+		<PRXNAME>sceHVAuth_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceHVAuth</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x5E335DF6</NID>
+						<NAME>sceHVAuth_5E335DF6</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x816A5F92</NID>
+						<NAME>sceHVAuth_816A5F92</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9DB7DE7C</NID>
+						<NAME>sceHVAuth_9DB7DE7C</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

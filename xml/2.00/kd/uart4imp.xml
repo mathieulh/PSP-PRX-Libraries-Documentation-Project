@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/uart4.prx</PRX>
+		<PRXNAME>sceUart4</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>KDebugForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xE146606D</NID>
+						<NAME>sceKernelRegisterDebugPutchar</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x66253C4E</NID>
+						<NAME>sceKernelRegisterDebugWrite</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE6554FDA</NID>
+						<NAME>sceKernelRegisterDebugRead</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7D1C74F0</NID>
+						<NAME>sceKernelDebugEchoSet</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>InterruptManagerForKernel</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F10D406</NID>
+						<NAME>sceKernelCpuResumeIntr</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

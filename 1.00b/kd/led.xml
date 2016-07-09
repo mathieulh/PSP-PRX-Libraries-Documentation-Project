@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/led.prx</PRX>
+		<PRXNAME>sceLED_Service</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceLed_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xB0B6A883</NID>
+						<NAME>sceLedInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA8542C48</NID>
+						<NAME>sceLedEnd</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xDE91D3A4</NID>
+						<NAME>sceLedSuspend</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA13B3D38</NID>
+						<NAME>sceLedResume</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEA24BE03</NID>
+						<NAME>sceLedSetMode</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>
