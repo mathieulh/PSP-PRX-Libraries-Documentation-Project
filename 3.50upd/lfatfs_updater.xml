@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>lfatfs_updater.prx</PRX>
+		<PRXNAME>sceLFatFs_Updater_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceLFatFs_updater_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x51C7F7AE</NID>
+						<NAME>sceLFatFs_updater_driver_51C7F7AE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8F0560E0</NID>
+						<NAME>sceLfatfsStop</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x933F6E29</NID>
+						<NAME>sceLfatfsWaitReady</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF1FBA85F</NID>
+						<NAME>sceLFatFs_updater_driver_F1FBA85F</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceLFatFsTool_updater_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x51C7F7AE</NID>
+						<NAME>sceLFatFsTool_updater_driver_51C7F7AE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF1FBA85F</NID>
+						<NAME>sceLFatFsTool_updater_driver_F1FBA85F</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

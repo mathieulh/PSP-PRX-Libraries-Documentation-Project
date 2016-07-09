@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/mlnbridge.prx</PRX>
+		<PRXNAME>sceMlnBridge_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceMgr_driver</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x2AF7907C</NID>
+						<NAME>sceMgr_driver_2AF7907C</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x573A4F9A</NID>
+						<NAME>sceMgr_driver_573A4F9A</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x68F4EF70</NID>
+						<NAME>sceMgr_driver_68F4EF70</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x750687E0</NID>
+						<NAME>sceMgr_driver_750687E0</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x81030E36</NID>
+						<NAME>sceMgr_driver_81030E36</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA13B5783</NID>
+						<NAME>sceMgr_driver_A13B5783</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

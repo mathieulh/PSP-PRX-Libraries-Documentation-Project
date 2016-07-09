@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>loadexec_updater.prx</PRX>
+		<PRXNAME>sceLoadExecUpdater</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>LoadExecUpdaterForUser</NAME>
+				<FLAGS>0x40090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x12E94364</NID>
+						<NAME>sceKernelExitUpdater</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

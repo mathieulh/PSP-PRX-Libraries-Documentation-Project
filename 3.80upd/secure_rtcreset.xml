@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>secure_rtcreset.prx</PRX>
+		<PRXNAME>SetDisplayBuffer</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>SetDisplayBuffer</NAME>
+				<FLAGS>0x40010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x8D32896F</NID>
+						<NAME>sceUpdaterResetSecureRTC</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7C028662</NID>
+						<NAME>sceUpdaterGetBaryonVersion</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBD31BE6C</NID>
+						<NAME>SetDisplayBuffer_BD31BE6C</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

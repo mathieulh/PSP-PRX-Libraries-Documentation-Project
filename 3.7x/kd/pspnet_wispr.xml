@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pspnet_wispr.prx</PRX>
+		<PRXNAME>sceNetWispr_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNetWispr</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x19235F8C</NID>
+						<NAME>sceNetWispr_19235F8C</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x757BDC9F</NID>
+						<NAME>sceNetWispr_757BDC9F</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBC05EC73</NID>
+						<NAME>sceNetWispr_BC05EC73</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBD745B6D</NID>
+						<NAME>sceNetWispr_BD745B6D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC856AAAC</NID>
+						<NAME>sceNetWispr_C856AAAC</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

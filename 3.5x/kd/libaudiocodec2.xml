@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libaudiocodec2.prx</PRX>
+		<PRXNAME>sceAudiocodec_Library2</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceAudiocodec2</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x21D5A83F</NID>
+						<NAME>sceAudiocodec2Decode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xAA2ED267</NID>
+						<NAME>sceAudiocodec2CheckNeedMem</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE063D402</NID>
+						<NAME>sceAudiocodec2Init</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

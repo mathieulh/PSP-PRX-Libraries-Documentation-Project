@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/libslim.prx</PRX>
+		<PRXNAME>sceHVSlim_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceRtc</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3F7AD767</NID>
+						<NAME>sceRtcGetCurrentTick</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x44F45E05</NID>
+						<NAME>sceRtcTickAddTicks</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

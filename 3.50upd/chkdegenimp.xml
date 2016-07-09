@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>chkdegen.prx</PRX>
+		<PRXNAME>sceCheckDegeneration</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceSyscon_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x7EC5A957</NID>
+						<NAME>sceSysconGetBaryonVersion</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceIdStorage_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEB00C509</NID>
+						<NAME>sceIdStorageReadLeaf</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

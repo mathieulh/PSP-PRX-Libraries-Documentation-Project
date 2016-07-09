@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>coldreset.prx</PRX>
+		<PRXNAME>sceNetworkUpdate</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNetworkUpdate</NAME>
+				<FLAGS>0x80010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xF23FAD68</NID>
+						<NAME>sceUpdaterRequestColdReset</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD03DD5B4</NID>
+						<NAME>sceUpdaterGetPsCode</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

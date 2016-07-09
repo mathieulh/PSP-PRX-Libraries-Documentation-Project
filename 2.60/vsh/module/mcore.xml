@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/mcore.prx</PRX>
+		<PRXNAME>mcore_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>mcore</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xA8C9C10A</NID>
+						<NAME>mcore_A8C9C10A</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6DCEA43E</NID>
+						<NAME>mcore_6DCEA43E</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x48C0D599</NID>
+						<NAME>mcore_48C0D599</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x4D094AD7</NID>
+						<NAME>mcore_4D094AD7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6264E827</NID>
+						<NAME>mcore_6264E827</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEA2E7E4D</NID>
+						<NAME>mcore_EA2E7E4D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB17B2B4E</NID>
+						<NAME>mcore_B17B2B4E</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xFA30975D</NID>
+						<NAME>mcore_FA30975D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x56CA3080</NID>
+						<NAME>mcore_56CA3080</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

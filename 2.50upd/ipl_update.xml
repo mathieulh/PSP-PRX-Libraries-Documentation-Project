@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>ipl_update.prx</PRX>
+		<PRXNAME>IplUpdater</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceIplUpdate</NAME>
+				<FLAGS>0x40010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEE7EB563</NID>
+						<NAME>sceIplUpdateSetIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x26093B04</NID>
+						<NAME>sceIplUpdateClearIpl</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceIplUpdate_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xEE7EB563</NID>
+						<NAME>sceIplUpdateSetIpl</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x26093B04</NID>
+						<NAME>sceIplUpdateClearIpl</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

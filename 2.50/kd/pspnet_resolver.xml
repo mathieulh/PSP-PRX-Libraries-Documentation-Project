@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pspnet_resolver.prx</PRX>
+		<PRXNAME>sceNetResolver_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNetResolver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xF3370E61</NID>
+						<NAME>sceNetResolverInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6138194A</NID>
+						<NAME>sceNetResolverTerm</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x244172AF</NID>
+						<NAME>sceNetResolverCreate</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x94523E09</NID>
+						<NAME>sceNetResolverDelete</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x224C5F44</NID>
+						<NAME>sceNetResolverStartNtoA</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x629E2FB7</NID>
+						<NAME>sceNetResolverStartAtoN</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x808F6063</NID>
+						<NAME>sceNetResolverStop</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

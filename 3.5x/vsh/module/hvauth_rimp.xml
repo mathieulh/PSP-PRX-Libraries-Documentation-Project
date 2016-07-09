@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/hvauth_r.prx</PRX>
+		<PRXNAME>sceHVAuth_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ThreadManForUser</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x369ED59D</NID>
+						<NAME>sceKernelGetSystemTimeLow</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

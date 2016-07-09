@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>lflash_fatfmt_updater.prx</PRX>
+		<PRXNAME>sceLflashFatfmtUpdater</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>LflashFatfmt</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xB7A424A4</NID>
+						<NAME>sceLflashFatfmtStartFatfmt</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

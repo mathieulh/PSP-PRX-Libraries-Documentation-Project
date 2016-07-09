@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libparse_uri.prx</PRX>
+		<PRXNAME>SceParseURI_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceParseUri</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x49E950EC</NID>
+						<NAME>sceUriEscape</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x062BB07E</NID>
+						<NAME>sceUriUnescape</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x568518C9</NID>
+						<NAME>sceUriParse</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7EE318AF</NID>
+						<NAME>sceUriBuild</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8AA55D17</NID>
+						<NAME>sceUriMerge</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8885A782</NID>
+						<NAME>sceUriSweepPath</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

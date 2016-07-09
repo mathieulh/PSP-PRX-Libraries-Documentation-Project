@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/np_core.prx</PRX>
+		<PRXNAME>sceNpCore</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceOpenPSID_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x19D579F0</NID>
+						<NAME>sceOpenPSIDGetPSID</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>SysclibForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x47DD934D</NID>
+						<NAME>strtol</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x52DF196C</NID>
+						<NAME>strlen</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7661E728</NID>
+						<NAME>sprintf</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7AB35214</NID>
+						<NAME>strncmp</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEC6F1CF2</NID>
+						<NAME>strcpy</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

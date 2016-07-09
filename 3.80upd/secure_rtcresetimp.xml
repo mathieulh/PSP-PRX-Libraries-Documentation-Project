@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>secure_rtcreset.prx</PRX>
+		<PRXNAME>SetDisplayBuffer</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceSyscon_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x7EC5A957</NID>
+						<NAME>sceSysconGetBaryonVersion</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x65EB6096</NID>
+						<NAME>sceSyscon_driver_65EB6096</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEB277C88</NID>
+						<NAME>sceSyscon_driver_EB277C88</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceMesgd_driver</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x102DC8AF</NID>
+						<NAME>sceMesgd_driver_102DC8AF</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

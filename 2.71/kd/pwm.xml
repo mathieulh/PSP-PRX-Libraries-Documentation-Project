@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/pwm.prx</PRX>
+		<PRXNAME>scePWM_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePwm_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x1FC555BE</NID>
+						<NAME>scePwmStop</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x526F94FC</NID>
+						<NAME>scePwmSuspend</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x68BA9CC1</NID>
+						<NAME>scePwmInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x850ED3D3</NID>
+						<NAME>scePwmStart</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x93F30DAC</NID>
+						<NAME>scePwmIsLoading</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xAB6D2E36</NID>
+						<NAME>scePwm_driver_AB6D2E36</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xB3169427</NID>
+						<NAME>scePwmEnd</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE449F656</NID>
+						<NAME>scePwmResume</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF624C1A0</NID>
+						<NAME>scePwm_driver_F624C1A0</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

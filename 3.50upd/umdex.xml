@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>umdex.prx</PRX>
+		<PRXNAME>sceUpdate_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceUpdate_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0281D080</NID>
+						<NAME>sceUmdExLeptonReset</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7425FAFF</NID>
+						<NAME>sceUpdate_driver_7425FAFF</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>coldreset.prx</PRX>
+		<PRXNAME>sceNetworkUpdate</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePower</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0442D852</NID>
+						<NAME>scePowerRequestColdReset</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceVshBridge</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x61001D64</NID>
+						<NAME>vshChkregGetPsCode</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

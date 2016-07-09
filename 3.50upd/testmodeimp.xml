@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>testmode.prx</PRX>
+		<PRXNAME>sceTexureLoader</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>InterruptManagerForKernel</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x092968F4</NID>
+						<NAME>sceKernelCpuSuspendIntr</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F10D406</NID>
+						<NAME>sceKernelCpuResumeIntr</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>ThreadManForKernel</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x6652B8CA</NID>
+						<NAME>sceKernelSetAlarm</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7E65B999</NID>
+						<NAME>sceKernelCancelAlarm</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceUmdMan_driver</NAME>
+				<FLAGS>0x00010000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x2CBE959B</NID>
+						<NAME>sceUmdMan_driver_2CBE959B</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x14D3381C</NID>
+						<NAME>sceUmdExecTestCmd</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

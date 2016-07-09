@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>emc_sm_updater.prx</PRX>
+		<PRXNAME>sceNAND_Updater_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceNand_updater_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0BEE8F36</NID>
+						<NAME>sceNand_updater_driver_0BEE8F36</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

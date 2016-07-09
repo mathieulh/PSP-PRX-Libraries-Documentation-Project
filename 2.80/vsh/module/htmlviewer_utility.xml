@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/htmlviewer_utility.prx</PRX>
+		<PRXNAME>sceVshHVUtility_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceHtmlViewerHelper</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x05E0C3D4</NID>
+						<NAME>sceHtmlViewerHelper_05E0C3D4</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x232F5D22</NID>
+						<NAME>sceHtmlViewerHelper_232F5D22</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x47F988E6</NID>
+						<NAME>sceHtmlViewerHelper_47F988E6</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x55732F91</NID>
+						<NAME>sceHtmlViewerHelper_55732F91</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5F1A7733</NID>
+						<NAME>sceHtmlViewerHelper_5F1A7733</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC92C71B7</NID>
+						<NAME>sceHtmlViewerHelper_C92C71B7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xE26BCED1</NID>
+						<NAME>sceHtmlViewerHelper_E26BCED1</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF27998C2</NID>
+						<NAME>sceHtmlViewerHelper_F27998C2</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

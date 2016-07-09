@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/netconf_plugin_auto_nec.prx</PRX>
+		<PRXNAME>sceVshNetconfRaku_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceVshNetconfRaku</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x75408F1E</NID>
+						<NAME>sceVshNetconfRaku_75408F1E</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x8B079FA9</NID>
+						<NAME>sceVshNetconfRaku_8B079FA9</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x97A0A7B5</NID>
+						<NAME>sceVshNetconfRaku_97A0A7B5</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA7546D12</NID>
+						<NAME>sceVshNetconfRaku_A7546D12</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEFF1EB63</NID>
+						<NAME>sceVshNetconfRaku_EFF1EB63</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

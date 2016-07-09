@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libdnas.prx</PRX>
+		<PRXNAME>sceDNAS_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceDNAS_lib</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0D560144</NID>
+						<NAME>sceDNASInit</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x45C1AAF5</NID>
+						<NAME>sceDNASGetEventFlag</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6929100C</NID>
+						<NAME>sceDNASGetProductCode</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x9FF48DD3</NID>
+						<NAME>sceDNASStop</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xA646E771</NID>
+						<NAME>sceDNASGetState</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xBE0998D7</NID>
+						<NAME>sceDNASTerm</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xCA8B8909</NID>
+						<NAME>sceDNASNetStart</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xF3787AD8</NID>
+						<NAME>sceDNASInternalStart</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

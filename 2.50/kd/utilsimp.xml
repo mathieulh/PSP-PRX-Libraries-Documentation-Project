@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/utils.prx</PRX>
+		<PRXNAME>sceKernelUtils</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>KDebugForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xE892D9A1</NID>
+						<NAME>KDebugForKernel_E892D9A1</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>InterruptManagerForKernel</NAME>
+				<FLAGS>0x00090011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x0FC68A56</NID>
+						<NAME>sceKernelSetPrimarySyscallHandler</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>SysclibForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xAB7592FF</NID>
+						<NAME>memcpy</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x10F3BB61</NID>
+						<NAME>memset</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

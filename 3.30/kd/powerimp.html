@@ -1,0 +1,714 @@
+<html><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>powerimp.prx</title></head><body>
+<TABLE STYLE="border:0px solid black; width=100%">
+<TR STYLE="font-size:10pt; font-family:Verdana; font-weight:bold; text-decoration:underline">
+<TD>Filename</TD>
+<TD>PRX Name</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD STYLE="background-color:lightgrey">kd/power.prx</TD>
+<TD STYLE="background-color:lightgrey"><A id="scePower_Service">scePower_Service</A></TD>
+</TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: SysMemForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x55A40B2C</TD>
+<TD>sceKernelQueryMemoryPartitionInfo</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB2C7AA36</TD>
+<TD>sceKernelSetDdrMemoryProtection</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCF4DE78C</TD>
+<TD>sceKernelGetUIDcontrolBlock</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xFC114573</TD>
+<TD>sceKernelGetCompiledSdkVersion</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSuspendForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0AB0C6F3</TD>
+<TD>sceKernelDispatchResumeHandlers</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x67B59042</TD>
+<TD>sceSuspendForKernel_67B59042</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8F58B1EC</TD>
+<TD>sceKernelDispatchSuspendHandlers</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB2C9640B</TD>
+<TD>sceSuspendForKernel_B2C9640B</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xBDE686CD</TD>
+<TD>sceKernelRegisterPowerHandlers</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSysEventForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x36331294</TD>
+<TD>sceKernelSysEventDispatch</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCD9E4BB5</TD>
+<TD>sceKernelRegisterSysEventHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD7D3FDCD</TD>
+<TD>sceKernelUnregisterSysEventHandler</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: InterruptManagerForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x092968F4</TD>
+<TD>sceKernelCpuSuspendIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3B84732D</TD>
+<TD>sceKernelCpuResumeIntrWithSync</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x5F10D406</TD>
+<TD>sceKernelCpuResumeIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCA04A2B9</TD>
+<TD>sceKernelRegisterSubIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD61E6961</TD>
+<TD>sceKernelReleaseSubIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xFB8E22EC</TD>
+<TD>sceKernelEnableSubIntr</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: SysclibForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x10F3BB61</TD>
+<TD>memset</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: ThreadManForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x1FB15A32</TD>
+<TD>sceKernelSetEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x278C0DF5</TD>
+<TD>sceKernelWaitThreadEnd</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x28B6489C</TD>
+<TD>sceKernelDeleteSema</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x2A3D44FF</TD>
+<TD>sceKernelGetCallbackCount</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x30FD48F0</TD>
+<TD>sceKernelPollEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x369ED59D</TD>
+<TD>sceKernelGetSystemTimeLow</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3F53E640</TD>
+<TD>sceKernelSignalSema</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x402FCF22</TD>
+<TD>sceKernelWaitEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x446D8DE6</TD>
+<TD>sceKernelCreateThread</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4E3A1105</TD>
+<TD>sceKernelWaitSema</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x55C20A00</TD>
+<TD>sceKernelCreateEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x57CF62DD</TD>
+<TD>sceKernelGetThreadmanIdType</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x58B1F937</TD>
+<TD>sceKernelPollSema</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x6652B8CA</TD>
+<TD>sceKernelSetAlarm</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x6B30100F</TD>
+<TD>sceKernelUnlockMutex</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x7E65B999</TD>
+<TD>sceKernelCancelAlarm</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x812346E4</TD>
+<TD>sceKernelClearEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x82BC5777</TD>
+<TD>sceKernelGetSystemTimeWide</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x9FA03CD3</TD>
+<TD>sceKernelDeleteThread</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB011B11F</TD>
+<TD>sceKernelLockMutex</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB7D098C6</TD>
+<TD>sceKernelCreateMutex</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC11BA8C4</TD>
+<TD>sceKernelNotifyCallback</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCEADEB47</TD>
+<TD>sceKernelDelayThread</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD6DA4BA1</TD>
+<TD>sceKernelCreateSema</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xEF9E4C70</TD>
+<TD>sceKernelDeleteEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF475845D</TD>
+<TD>sceKernelStartThread</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF8170FBE</TD>
+<TD>sceKernelDeleteMutex</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: UtilsForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x34B9FA9E</TD>
+<TD>sceKernelDcacheWritebackInvalidateRange</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x79D1C3FA</TD>
+<TD>sceKernelDcacheWritebackAll</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x840259F1</TD>
+<TD>sceKernelUtilsSha1Digest</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: KDebugForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x24C32559</TD>
+<TD>KDebugForKernel_24C32559</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x84F370BC</TD>
+<TD>Kprintf</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE892D9A1</TD>
+<TD>KDebugForKernel_E892D9A1</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSysreg_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0EA487FA</TD>
+<TD>sceSysreg_driver_0EA487FA</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x136E8F5A</TD>
+<TD>sceSysreg_driver_136E8F5A</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x1E9C3607</TD>
+<TD>sceSysregGpioIoDisable</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x377F035F</TD>
+<TD>sceSysreg_driver_377F035F</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x44704E1D</TD>
+<TD>sceSysreg_driver_44704E1D</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4F46EEDE</TD>
+<TD>sceSysreg_driver_4F46EEDE</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x5664F8B5</TD>
+<TD>sceSysreg_driver_5664F8B5</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x584AD989</TD>
+<TD>sceSysreg_driver_584AD989</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8F4F4E96</TD>
+<TD>sceSysreg_driver_8F4F4E96</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xA16E55F4</TD>
+<TD>sceSysregSpiIoDisable</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xAB3185FD</TD>
+<TD>sceSysreg_driver_AB3185FD</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB21B6CBF</TD>
+<TD>sceSysregPllGetFrequency</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB4560C45</TD>
+<TD>sceSysreg_driver_B4560C45</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xBB823481</TD>
+<TD>sceSysregUartIoDisable</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE2A5D1EE</TD>
+<TD>sceSysreg_driver_E2A5D1EE</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF4811E00</TD>
+<TD>sceSysreg_driver_F4811E00</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceGpio_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x103C3EB2</TD>
+<TD>sceGpioPortClear</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceDdr_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0DC43DE4</TD>
+<TD>sceDdr_driver_0DC43DE4</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x286E1372</TD>
+<TD>sceDdr_driver_286E1372</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4CE55E76</TD>
+<TD>sceDdrChangePllClock</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x888129E8</TD>
+<TD>sceDdr_driver_888129E8</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceGe_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x114E1745</TD>
+<TD>sceGe_driver_114E1745</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSyscon_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x01677F91</TD>
+<TD>sceSysconCtrlVoltage</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x08234E6D</TD>
+<TD>sceSysconReceiveSetParam</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x08DA3752</TD>
+<TD>sceSyscon_driver_08DA3752</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x18BFBE65</TD>
+<TD>sceSysconCtrlLED</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x284FE366</TD>
+<TD>sceSysconBatteryGetLimitTime</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x2EE82492</TD>
+<TD>sceSyscon_driver_2EE82492</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x32CFD20F</TD>
+<TD>sceSysconIsLowBattery</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x373EC933</TD>
+<TD>sceSysconBatteryGetElec</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3AC3D2A4</TD>
+<TD>sceSysconCmdExecAsync</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x64FA0B22</TD>
+<TD>sceSyscon_driver_64FA0B22</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x65EB6096</TD>
+<TD>sceSyscon_driver_65EB6096</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x6A53F3F8</TD>
+<TD>sceSysconBatteryGetStatusCap</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x70C10E61</TD>
+<TD>sceSysconBatteryGetTemp</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x71135D7D</TD>
+<TD>sceSysconBatteryGetFullCap</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x7479DB05</TD>
+<TD>sceSysconSetHoldSwitchCallback</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8BDEBB1E</TD>
+<TD>sceSysconBatteryGetVolt</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8CBC7987</TD>
+<TD>sceSysconResetDevice</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x91E183CB</TD>
+<TD>sceSysconPowerSuspend</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x992C22C2</TD>
+<TD>sceSysconSendSetParam</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x99BBB24C</TD>
+<TD>sceSysconCtrlMsPower</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x9E6E060F</TD>
+<TD>sceSyscon_driver_9E6E060F</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xAD555CE5</TD>
+<TD>sceSysconSetLowBatteryCallback</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB5105D51</TD>
+<TD>sceSysconBatteryGetCycle</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC4D66C1D</TD>
+<TD>sceSysconReadClock</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC5075828</TD>
+<TD>sceSyscon_driver_C5075828</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC8439C57</TD>
+<TD>sceSysconPowerStandby</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE00BFC9E</TD>
+<TD>sceSyscon_driver_E00BFC9E</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE20D08FE</TD>
+<TD>sceSyscon_driver_E20D08FE</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE540E532</TD>
+<TD>sceSyscon_driver_E540E532</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE6B74CB9</TD>
+<TD>sceSysconNop</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE9FF8226</TD>
+<TD>sceSyscon_driver_E9FF8226</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xEAB13FBE</TD>
+<TD>sceSyscon_driver_EAB13FBE</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xEB277C88</TD>
+<TD>sceSyscon_driver_EB277C88</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF281805D</TD>
+<TD>sceSysconSetPowerSwitchCallback</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xFC32141A</TD>
+<TD>sceSysconGetPowerSupplyStatus</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceCtrl_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x252D3A8D</TD>
+<TD>sceCtrl_driver_252D3A8D</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceDisplay_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x210EAB3A</TD>
+<TD>sceDisplayGetAccumulatedHcount</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4D4E10EC</TD>
+<TD>sceDisplayIsVblank</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x773DD3A3</TD>
+<TD>sceDisplayGetCurrentHcount</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xA83EF139</TD>
+<TD>sceDisplay_driver_A83EF139</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceIdStorage_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x6FE062D1</TD>
+<TD>sceIdStorageLookup</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+</TABLE>
+</body></html>

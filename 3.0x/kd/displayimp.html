@@ -1,0 +1,616 @@
+<html><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>displayimp.prx</title></head><body>
+<TABLE STYLE="border:0px solid black; width=100%">
+<TR STYLE="font-size:10pt; font-family:Verdana; font-weight:bold; text-decoration:underline">
+<TD>Filename</TD>
+<TD>PRX Name</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD STYLE="background-color:lightgrey">kd/display.prx</TD>
+<TD STYLE="background-color:lightgrey"><A id="sceDisplay_Service">sceDisplay_Service</A></TD>
+</TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: SysMemForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x2F808748</TD>
+<TD>sceKernelMemset32</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSysEventForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCD9E4BB5</TD>
+<TD>sceKernelRegisterSysEventHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD7D3FDCD</TD>
+<TD>sceKernelUnregisterSysEventHandler</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: KDebugForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE892D9A1</TD>
+<TD>KDebugForKernel_E892D9A1</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: InterruptManagerForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x092968F4</TD>
+<TD>sceKernelCpuSuspendIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x15894D0B</TD>
+<TD>InterruptManagerForKernel_15894D0B</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3B84732D</TD>
+<TD>sceKernelCpuResumeIntrWithSync</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4D6E7305</TD>
+<TD>sceKernelEnableIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x58DD8978</TD>
+<TD>sceKernelRegisterIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x5F10D406</TD>
+<TD>sceKernelCpuResumeIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCA04A2B9</TD>
+<TD>sceKernelRegisterSubIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xCDC86B64</TD>
+<TD>sceKernelCallSubIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD61E6961</TD>
+<TD>sceKernelReleaseSubIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xD774BA45</TD>
+<TD>sceKernelDisableIntr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF987B1F0</TD>
+<TD>sceKernelReleaseIntrHandler</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xFB8E22EC</TD>
+<TD>sceKernelEnableSubIntr</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: SysclibForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x10F3BB61</TD>
+<TD>memset</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xAB7592FF</TD>
+<TD>memcpy</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: ThreadManForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x1FB15A32</TD>
+<TD>sceKernelSetEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x328C546A</TD>
+<TD>sceKernelWaitEventFlagCB</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x402FCF22</TD>
+<TD>sceKernelWaitEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x55C20A00</TD>
+<TD>sceKernelCreateEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x812346E4</TD>
+<TD>sceKernelClearEventFlag</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xEF9E4C70</TD>
+<TD>sceKernelDeleteEventFlag</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: ModuleMgrForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x04B7BD22</TD>
+<TD>sceKernelSearchModuleByName</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: InitForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x7A2333AD</TD>
+<TD>sceKernelInitApitype</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x9F9AE99C</TD>
+<TD>InitForKernel_9F9AE99C</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: UtilsForKernel</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3EE30821</TD>
+<TD>sceKernelDcacheWritebackRange</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x79D1C3FA</TD>
+<TD>sceKernelDcacheWritebackAll</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceSysreg_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x03340297</TD>
+<TD>sceSysreg_driver_03340297</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x312F9419</TD>
+<TD>sceSysreg_driver_312F9419</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE8533DCA</TD>
+<TD>sceSysreg_driver_E8533DCA</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE88B77ED</TD>
+<TD>sceSysreg_driver_E88B77ED</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF6D83AD0</TD>
+<TD>sceSysreg_driver_F6D83AD0</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceGe_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x03444EB4</TD>
+<TD>sceGeListSync</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x5BAA5439</TD>
+<TD>sceGe_driver_5BAA5439</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xAB49E76A</TD>
+<TD>sceGeListEnQueue</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB287BD61</TD>
+<TD>sceGeDrawSync</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB77905EA</TD>
+<TD>sceGeEdramSetAddrTranslation</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC576E897</TD>
+<TD>sceGe_driver_C576E897</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE47E40E4</TD>
+<TD>sceGeEdramGetAddr</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: scePwm_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x1FC555BE</TD>
+<TD>scePwmStop</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x850ED3D3</TD>
+<TD>scePwmStart</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xAB6D2E36</TD>
+<TD>scePwm_driver_AB6D2E36</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF624C1A0</TD>
+<TD>scePwm_driver_F624C1A0</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceGpio_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x103C3EB2</TD>
+<TD>sceGpioPortClear</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x310F0CCF</TD>
+<TD>sceGpioPortSet</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x317D9D2C</TD>
+<TD>sceGpioSetPortMode</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x4250D44A</TD>
+<TD>sceGpioPortRead</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceLcdc_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0BC2B5E2</TD>
+<TD>sceLcdcSetMode</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3107417C</TD>
+<TD>sceLcdc_driver_3107417C</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x551C5BC3</TD>
+<TD>sceLcdcInsertDisplay_default</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x73A3A01D</TD>
+<TD>sceLcdcCheckMode</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xA2E70DA6</TD>
+<TD>sceLcdcReset</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF6F413C5</TD>
+<TD>sceLcdc_driver_F6F413C5</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceHibari_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0AE1F52B</TD>
+<TD>sceHibari_driver_0AE1F52B</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0F67C479</TD>
+<TD>sceHibari_driver_0F67C479</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x172509E6</TD>
+<TD>sceHibari_driver_172509E6</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3EB2A14D</TD>
+<TD>sceHibari_driver_3EB2A14D</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x3EE467E2</TD>
+<TD>sceHibari_driver_3EE467E2</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x5F9F4128</TD>
+<TD>sceHibari_driver_5F9F4128</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x69FF14D4</TD>
+<TD>sceHibari_driver_69FF14D4</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x722367A3</TD>
+<TD>sceHibari_driver_722367A3</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8CD96FBC</TD>
+<TD>sceHibari_driver_8CD96FBC</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8FA42787</TD>
+<TD>sceHibari_driver_8FA42787</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xA563D70F</TD>
+<TD>sceHibari_driver_A563D70F</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xB38576DD</TD>
+<TD>sceHibari_driver_B38576DD</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xC06EA555</TD>
+<TD>sceHibari_driver_C06EA555</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceDve_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x0F74DCB0</TD>
+<TD>sceDve_driver_0F74DCB0</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x194AA1C8</TD>
+<TD>sceDve_driver_194AA1C8</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x1E044968</TD>
+<TD>sceDve_driver_1E044968</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x74152DE9</TD>
+<TD>sceDve_driver_74152DE9</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8E249D7F</TD>
+<TD>sceDve_driver_8E249D7F</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE3C80EF1</TD>
+<TD>sceDve_driver_E3C80EF1</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xE9110B8F</TD>
+<TD>sceDve_driver_E9110B8F</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF51FABAA</TD>
+<TD>sceDve_driver_F51FABAA</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceDmacplus_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x241601AE</TD>
+<TD>sceDmacplusLcdcGetFormat</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x29B50A82</TD>
+<TD>sceDmacplusLcdcSetBaseAddr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x576522BC</TD>
+<TD>sceDmacplusLcdcDisable</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x58C380BB</TD>
+<TD>sceDmacplusLcdcGetBaseAddr</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x8AE579CD</TD>
+<TD>sceDmacplusLcdcSetFormat</TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0xF8C7C180</TD>
+<TD>sceDmacplusLcdcEnable</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR><BR><TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Library Name: sceIdStorage_driver</B></TD>
+</TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Functions</B></TD>
+<TD></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD>0x6FE062D1</TD>
+<TD>sceIdStorageLookup</TD>
+</TR>
+<TR></TR>
+<TR></TR>
+<TR STYLE="font-family:Verdana; font-size:10pt; padding:5px 6px">
+<TD><B>Variables</B></TD>
+</TR>
+<TR></TR>
+<TR></TR>
+</TABLE>
+</body></html>

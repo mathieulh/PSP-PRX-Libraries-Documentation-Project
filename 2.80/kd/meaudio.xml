@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/meaudio.prx</PRX>
+		<PRXNAME>sceMeAudio</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceMeAudio_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x148E487D</NID>
+						<NAME>sceMeAudio_driver_148E487D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x29798EF3</NID>
+						<NAME>sceMeAudio_driver_29798EF3</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceMeAudio</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x05115756</NID>
+						<NAME>sceMeAudio_05115756</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x148E487D</NID>
+						<NAME>sceMeAudio_148E487D</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x29798EF3</NID>
+						<NAME>sceMeAudio_29798EF3</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5EDA8D33</NID>
+						<NAME>sceMeAudio_5EDA8D33</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

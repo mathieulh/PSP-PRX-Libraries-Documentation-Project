@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/wlanfirm_magpie.prx</PRX>
+		<PRXNAME>sceWlanFirmMagpie_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceIdStorage_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x6FE062D1</NID>
+						<NAME>sceIdStorageLookup</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceWlanDrv_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x20FB9FF7</NID>
+						<NAME>sceWlanDrv_driver_20FB9FF7</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

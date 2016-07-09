@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/wlanfirm_magpie.prx</PRX>
+		<PRXNAME>sceWlanFirmMagpie_driver</PRXNAME>
+		<LIBRARIES>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

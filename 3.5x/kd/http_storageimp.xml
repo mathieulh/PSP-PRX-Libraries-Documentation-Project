@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/http_storage.prx</PRX>
+		<PRXNAME>sceHttpStorage_Service</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>IoFileMgrForKernel</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x109F50BC</NID>
+						<NAME>sceIoOpen</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x27EB27B8</NID>
+						<NAME>sceIoLseek</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x42EC03AC</NID>
+						<NAME>sceIoWrite</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x6A638D83</NID>
+						<NAME>sceIoRead</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x810C4BC3</NID>
+						<NAME>sceIoClose</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xACE946E8</NID>
+						<NAME>sceIoGetstat</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

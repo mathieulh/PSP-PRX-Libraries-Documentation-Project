@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>vsh/module/mm_flash.prx</PRX>
+		<PRXNAME>sceHVFlash_Module</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>sceHVFlash_Module</NAME>
+				<FLAGS>0x00090000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xC6A63B83</NID>
+						<NAME>sceHVFlash_Module_C6A63B83</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

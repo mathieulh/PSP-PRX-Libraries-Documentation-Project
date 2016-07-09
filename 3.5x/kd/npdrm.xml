@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/npdrm.prx</PRX>
+		<PRXNAME>scePspNpDrm_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>scePspNpDrm_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x04618D16</NID>
+						<NAME>scePspNpDrm_driver_04618D16</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x0F9547E6</NID>
+						<NAME>sceNpDrmGetVersionKey</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x17E3F4BB</NID>
+						<NAME>sceNpDrmVerifyAct</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x37B9B10D</NID>
+						<NAME>sceNpDrmVerifyRif</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5667B7B9</NID>
+						<NAME>sceNpDrmGetContentKey</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEBB198ED</NID>
+						<NAME>scePspNpDrm_driver_EBB198ED</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>scePspNpDrmVideoKey_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x77743584</NID>
+						<NAME>scePspNpDrmVideoKey_driver_77743584</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

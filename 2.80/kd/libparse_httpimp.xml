@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kd/libparse_http.prx</PRX>
+		<PRXNAME>SceParseHTTPheader_Library</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>ThreadManForUser</NAME>
+				<FLAGS>0x40010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD13BDE95</NID>
+						<NAME>sceKernelCheckThreadStack</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>
